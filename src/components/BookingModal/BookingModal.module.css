@@ -1,0 +1,39 @@
+.modalBox {
+    width: 95%;
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 24px;
+    padding: 24px;
+    outline: 0;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.subText {
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.spanBold {
+    font-weight: 600;
+}
+
+.formStack {
+    align-items: flex-start;
+    word-spacing: 16px;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}

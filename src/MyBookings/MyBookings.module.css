@@ -1,0 +1,76 @@
+.gradientBackground {
+    background: linear-gradient(#EFF5FE, rgba(241, 247, 255, 0.47));
+  }
+  
+  .heroSection {
+    margin-bottom: 50px;
+    padding-top: 1rem;
+    position: relative;
+    background: linear-gradient(90deg, #2AA7FF, #0C8CE5);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  
+  .heroContainer {
+    padding-left: 0;
+    padding-right: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .heroStack {
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+  }
+  
+  .heroTitle {
+    padding-bottom: 1rem;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  @media (min-width: 600px) {
+    .heroTitle {
+      font-size: 40px;
+    }
+  }
+  
+  .searchBarBox {
+    background-color: #fff;
+    padding: 3rem;
+    flex-grow: 1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(50px);
+    width: 100%;
+  }
+  
+  .bookingsContainer {
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  
+  .bookingsList {
+    margin-bottom: 4rem;
+    gap: 3rem;
+    width: 100%;
+    margin-right: 24px;
+  }
+  
+  .noBookingsText {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+  }
+  
+  .ctaImage {
+    width: 360px;
+    height: auto;
+  }
+  

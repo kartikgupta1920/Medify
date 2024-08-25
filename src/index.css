@@ -1,0 +1,68 @@
+.themeContainer {
+  font-family: 'Poppins', sans-serif;
+  --primary-color: #2AA7FF;
+  --secondary-color: #1B3C74;
+  --primary-green: #00A500;
+  --white-color: #ffffff;
+  --black-color: #000000;
+
+  /* Typography */
+  --h1-font-size: 56px;
+  --h2-font-size: 48px;
+  --h3-font-size: 30px;
+
+  /* Responsive typography */
+  @media (max-width: 600px) {
+    --h1-font-size: 36px;
+    --h2-font-size: 32px;
+    --h3-font-size: 22px;
+  }
+}
+
+h1 {
+  color: var(--black-color);
+  font-size: var(--h1-font-size);
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: var(--h2-font-size);
+  line-height: 1.2;
+}
+
+h3 {
+  color: #102851;
+  font-size: var(--h3-font-size);
+  font-weight: 500;
+}
+
+.button {
+  border-radius: 8px;
+  text-transform: none;
+  color: var(--white-color);
+}
+
+.container {
+  width: 90%;
+}
+
+.select,
+.textField {
+  background: #FAFBFE;
+  border-radius: 8px;
+  color: #ABB6C7;
+}
+
+.select .MuiOutlinedInput-notchedOutline,
+.textField .MuiOutlinedInput-notchedOutline {
+  border-color: #F0F0F0;
+}
+
+.select:hover .MuiOutlinedInput-notchedOutline,
+.textField:hover .MuiOutlinedInput-notchedOutline,
+.select.Mui-focused .MuiOutlinedInput-notchedOutline,
+.textField.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #F0F0F0;
+}

@@ -1,0 +1,18 @@
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+    color: #102851;
+    font-weight: 500;
+    margin-bottom: 8px; 
+}
+
+.gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; 
+    justify-content: center;
+}

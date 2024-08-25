@@ -1,0 +1,135 @@
+.hospitalCard {
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 16px;
+    padding: 32px;
+}
+
+.hospitalStack {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.hospitalStackRow {
+    flex-direction: row;
+}
+
+.hospitalIcon {
+    width: 64px;
+    flex-shrink: 0;
+    align-self: start;
+}
+
+.hospitalIconMd {
+    width: 130px;
+}
+
+.hospitalName {
+    color: #1B3C74;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.hospitalNameMd {
+    font-size: 20px;
+}
+
+.hospitalLocation {
+    text-transform: capitalize;
+    color: #414146;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hospitalType {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.consultationFeeStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.consultationFeeFree {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #00A88E; /* Assuming primary.green */
+}
+
+.consultationFeeStrikethrough {
+    text-decoration: line-through;
+    color: #787887;
+}
+
+.dividerDashed {
+    border-style: dashed;
+    margin-bottom: 16px;
+}
+
+.ratingStack {
+    display: flex;
+    align-items: center;
+    background-color: #00A88E; /* Assuming primary.green */
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+    width: fit-content;
+    gap: 4px;
+}
+
+.thumbIcon {
+    width: 16px;
+    height: 16px;
+}
+
+.thumbIconMd {
+    width: 20px;
+    height: 20px;
+}
+
+.ratingText {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.ratingTextMd {
+    font-size: 16px;
+}
+
+.bookingStack {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 23%;
+}
+
+.bookingStackStart {
+    justify-content: flex-start;
+}
+
+.bookingButton {
+    text-align: center;
+    color: #00A88E; /* Assuming primary.green */
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.bookingChip {
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.calendarContainer {
+    margin-top: 16px;
+}

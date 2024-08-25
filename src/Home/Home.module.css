@@ -1,0 +1,24 @@
+.heroBackground {
+  background: linear-gradient(#E7F0FF, rgba(232, 241, 255, 0.47) 90%, #fff 10%);
+}
+
+.heroStack {
+  padding: 2.5rem 8rem;
+  margin-top: -2rem;
+  position: relative;
+  z-index: 99;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+
+  /* Responsive adjustments */
+  @media (min-width: 600px) {
+    margin-top: 0;
+  }
+  @media (min-width: 1200px) {
+    margin-top: -6rem;
+  }
+  @media (min-width: 1920px) {
+    margin-top: -10rem;
+  }
+}

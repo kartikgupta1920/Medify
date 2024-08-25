@@ -1,0 +1,41 @@
+
+.heroSlide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.heroSlideRow {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+.heroTitle {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.heroSubtitle {
+    font-size: 4rem;
+    margin-bottom: 8px;
+}
+
+.heroSpan {
+    color: #2AA7FF;
+}
+
+.heroDescription {
+    color: #5C6169;
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+}
+
+.heroImage {
+    width: 100%;
+    max-width: 50%;
+}
+
+

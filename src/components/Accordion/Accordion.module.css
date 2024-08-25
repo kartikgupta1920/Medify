@@ -1,0 +1,31 @@
+.accordion {
+    border: none;
+    margin-bottom: 24px;
+}
+
+.accordionSummary {
+    padding: 0;
+}
+
+.expandIconWrapper {
+    transform: rotate(45deg);
+}
+
+.content {
+    margin-left: 0;
+}
+
+.accordionDetails {
+    padding: 0;
+}
+
+.typographyTitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1B3C74;
+    line-height: 1.2;
+}
+
+.typographyContent {
+    font-size: 14px;
+}
